@@ -40,7 +40,7 @@ ggplot(NORM, aes(x = range, y = d)) +
 
 # create density distributions
 range <- seq(0, 1, length.out = 100)
-d <- dbeta(range, shape1 = 3, shape2 = 2)
+d <- dbeta(range, shape1 =13, shape2 = 2)
 BETA <- data.frame(range, d)
 
 # plot
